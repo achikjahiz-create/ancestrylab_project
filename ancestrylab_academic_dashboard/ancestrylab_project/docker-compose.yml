@@ -1,0 +1,8 @@
+services:
+  ancestrylab:
+    build: .
+    ports: ["3838:3838"]
+    volumes:
+      - ./data:/srv/ancestrylab/data
+      - ./results:/srv/ancestrylab/results
+    restart: unless-stopped

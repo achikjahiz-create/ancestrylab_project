@@ -1,0 +1,6 @@
+requests>=2.31,<3
+numpy>=1.26,<3
+pandas>=2.2,<4
+tqdm>=4.66,<5
+nbformat>=5.9,<6
+nbclient>=0.10,<1

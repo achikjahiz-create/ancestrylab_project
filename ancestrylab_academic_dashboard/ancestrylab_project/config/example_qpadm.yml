@@ -1,0 +1,18 @@
+# Illustrative schema only. Replace every label with a verified exact group in your dataset.
+# This file does not assert that these populations form a historically valid model.
+analysis: qpadm
+target: TARGET_EXACT_LABEL
+left:
+  - SOURCE_A_EXACT_LABEL
+  - SOURCE_B_EXACT_LABEL
+right:
+  - OUTGROUP_1_EXACT_LABEL
+  - OUTGROUP_2_EXACT_LABEL
+  - OUTGROUP_3_EXACT_LABEL
+settings:
+  constrained: true
+  block_size_morgans: 0.05
+  max_missing_fraction: 0.0
+  afprod: false
+  allsnps: false
+notes: "Document the publication, sample IDs, SNP intersection and justification for every left/right population."
